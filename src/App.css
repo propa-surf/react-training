@@ -1,0 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-container{
+  background-color: blue;
+}
+
+.header-container{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  padding: 0 8px;
+}
+
+.logged-profile{
+  display: flex;
+  flex-direction: row;
+}
+
+.the-name{
+  color: gray;
+  margin-right: 16px;
+}
+
+.profile{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.switch-profile{
+ height: 80%;
+ padding: 4px;
+}
+
+.webpage-container{
+  background-color: lightgrey;
+  height: 100vh;
+}
+
+.footer-container{
+  background-color: white;
+  text-align: center;
+}
