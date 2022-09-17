@@ -33,6 +33,40 @@
   border-radius: 50%;
 }
 
+.profile-container{
+  height: 10%;
+  background-color: blue;
+  width: 50%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.image-quote{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 50%;
+  justify-content: center;
+  align-items:center;
+}
+
+.profile-image{
+  height: 70px;
+  margin-right: 10px;
+}
+
+.profile-header{
+  color: white;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .switch-profile{
  height: 80%;
  padding: 4px;
@@ -41,6 +75,12 @@
 .webpage-container{
   background-color: lightgrey;
   height: 100vh;
+}
+
+.box-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-container{
